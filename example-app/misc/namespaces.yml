@@ -1,0 +1,48 @@
+# Namespace for operations
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: operations
+  labels:
+    name: operations
+---
+# Namespace for backend
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: backend
+  labels:
+    name: backend
+---
+# Namespace for frontend
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: frontend
+  labels:
+    name: frontend
+---
+    # Namespace for medical
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: medical
+  labels:
+    name: medical
+---
+# Namespace for operations
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: operations
+  labels:
+    name: operations
+---
+# Namespace for payments
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: payments
+  labels:
+    name: payments
+---
