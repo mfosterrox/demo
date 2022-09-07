@@ -46,3 +46,27 @@ metadata:
   labels:
     name: payments
 ---
+# Namespace for log4shell app
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: log4shell
+  labels:
+    name: log4shell
+---
+# Namespace for spring4shell app
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: spring4shell
+  labels:
+    name: spring4shell
+---
+# Namespace for yelb app
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: yelb
+  labels:
+    name: yelb
+---
